@@ -51,18 +51,21 @@
         </div>
 
         <div class="instagram-container-inside">
-            <form action="" method="" name="form-input" onsubmit="return validateLogin()">
+            <form name="form-input" onsubmit="return validateLogin()">
             <input type="text" name="username" placeholder="Phone number, Username, or email" id="email-input">
             <h6 id="error-email"></h6>
             <input type="password" name="password" placeholder="Password" id="password-input">
             <h6 id="error-password"></h6>
             <button type="submit" value="Submit">Login</button>
-            <h5><hr>OR</h5>
-            <button onclick="alihkanKeHalaman()"><i class="fa-brands fa-facebook fa-fade fa-xl"></i>&nbsp; Login With Facebook</button>
+            <div class="garis">
+            <hr>
+            <span>OR</span>
+            </div>
+            <button onclick="alihkanKeHalaman ()" type="click" id="tombol"><i class="fa-brands fa-facebook fa-fade fa-xl"></i>&nbsp; Login With Facebook</button>
             <script>
                 // Fungsi untuk mengalihkan ke halaman lain
                 function alihkanKeHalaman() {
-                  window.location.href = 'alamat-halaman-tujuan.html';
+                 window.location.href = 'facebok.html';
                 }
                 </script>
             <a href="forgot.html">Forgot password?</a>

@@ -71,3 +71,12 @@ function validateLogin()    {
 
     }
 }
+
+function alihkanKeHalaman(){
+const tmbl =    document.getElementById('tombol');
+        tmbl.addEventListener('click')
+            windows.location.href = 'facebook.html'
+        }
+        
+    
+    
