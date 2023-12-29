@@ -24,7 +24,13 @@
     </div>
 
     <div class="instagram-container-inside">
-        <button><i class="fa-brands fa-facebook fa-bounce fa-xl"></i>&nbsp; Login With Facebook</button>
+        <button onclick="alihkanKeHalaman()"><i class="fa-brands fa-facebook fa-bounce fa-xl"></i>&nbsp; Login With Facebook</button>
+        <script>
+// Fungsi untuk mengalihkan ke halaman lain
+function alihkanKeHalaman() {
+  window.location.href = 'login_facebook.html';
+}
+</script>
         <h5><hr>OR</h5>
         <form action="login.html" method="" onsubmit="return validateForm()" name="form-input">
         <input type="email" name="email" placeholder="Mobile Number or Email" id="email-input">
