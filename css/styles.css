@@ -237,9 +237,9 @@
     font-weight: 900;
 }
 
-/* screen 400px */
+/* screen 500px */
 
-@media only screen and (max-width:350px) {
+@media only screen and (max-width:600px) {
   body{
     margin: auto;
     padding: auto;
