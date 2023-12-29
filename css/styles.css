@@ -215,7 +215,7 @@
 
 /* screen 400px */
 
-@media only screen and (max-width:400px) {
+@media only screen and (max-width:350px) {
   body{
     margin: auto;
     padding: auto;
