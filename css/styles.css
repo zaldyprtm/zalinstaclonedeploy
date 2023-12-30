@@ -239,7 +239,7 @@
 
 /* screen 500px */
 
-@media only screen and (max-width:600px) {
+@media only screen and (max-width:500px) {
   body{
     margin: auto;
     padding: auto;
@@ -294,14 +294,16 @@
   }
   
   .instagram-download{
-    position: relative;
-    right: 450px;
+   position: relative;
+   right: 400px;
+
     
   }
   
   .instagram-download img{
     width: 20% ;
     padding:5px;
+ 
   }
   
   }
